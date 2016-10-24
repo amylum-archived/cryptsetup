@@ -1,0 +1,22 @@
+name 'cryptsetup'
+org 'amylum'
+
+licenses 'COPYING'
+
+configure_flags(
+  prefix: '/usr',
+  sbindir: '/usr/bin'
+)
+
+harden
+
+build do
+  run './autogen.sh'
+  configure
+  make
+  install
+end
+
+test do
+  # TODO: add tests
+end
