@@ -3,11 +3,16 @@ org 'amylum'
 
 licenses 'COPYING'
 
+deps(
+  lvm2: '2.02.167-1'
+)
+
 configure_flags(
   prefix: '/usr',
   sbindir: '/usr/bin'
 )
 
+cflags
 harden
 
 build do
