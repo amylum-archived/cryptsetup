@@ -16,7 +16,7 @@ cflags
 harden
 
 build do
-  run './autogen.sh', 'CFLAGS' => "-I#{dep(:lvm2)}/usr/include"
+  run './autogen.sh', 'CFLAGS' => @forge.cflags.join(' ')
   configure
   make
   install
