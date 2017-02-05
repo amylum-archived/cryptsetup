@@ -4,7 +4,7 @@ org 'amylum'
 licenses 'COPYING'
 
 deps(
-  lvm2: '2.02.168-9'
+  lvm2: '2.02.168-10'
 )
 
 configure_flags(
