@@ -4,19 +4,26 @@ org 'amylum'
 licenses 'COPYING'
 
 deps(
-  lvm2: '2.02.171-3'
+  lvm2: '2.02.171-3',
+  popt: '1.16-2',
+  'util-linux': '2.30-rc2-2',
+  'linux-api-headers': '4.11-4',
+  libgcrypt: '1.7.6-2',
+  'libgpg-error': '1.27-1'
 )
 
 configure_flags(
   prefix: '/usr',
-  sbindir: '/usr/bin'
+  sbindir: '/usr/bin',
 )
 
 cflags
 harden
+remove_linker_archives
+remove_pkgconfig_files
 
 build do
-  run './autogen.sh', 'CFLAGS' => @forge.cflags.join(' ')
+  run './autogen.sh', 'NOCONFIGURE' => 'true'
   configure
   make
   install
