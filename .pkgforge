@@ -8,7 +8,7 @@ deps(
   popt: '1.16-2',
   'util-linux': '2.30-4',
   'linux-api-headers': '4.11-4',
-  libgcrypt: '1.7.7-1',
+  libgcrypt: '1.7.8-1',
   'libgpg-error': '1.27-1'
 )
 
