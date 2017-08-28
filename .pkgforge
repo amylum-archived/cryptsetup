@@ -4,12 +4,30 @@ org 'amylum'
 licenses 'COPYING'
 
 deps(
-  lvm2: '2.02.172-1',
-  popt: '1.16-2',
-  'util-linux': '2.30.1-3',
-  'linux-api-headers': '4.12-1',
-  libgcrypt: '1.8.0-1',
-  'libgpg-error': '1.27-1'
+  lvm2: {
+    version: '2.02.172-1',
+    checksum: '46ae49390ff4d9989987ee4d79a034a4d993bf80e77a2ff99f0c0a5baa2729a8'
+  },
+  popt: {
+    version: '1.16-2',
+    checksum: '68f7560c7ddc160c4b9aa71e7261ba5b133d1864609a6980c3fee733f659fc97'
+  },
+  'util-linux': {
+    version: '2.30.1-3',
+    checksum: '1f025db2079b3d77a8a61b880be53db75253e39a9ebca03722b46fe7033363cb'
+  },
+  'linux-api-headers': {
+    version: '4.12-1',
+    checksum: '25d3672456a93cc7f6743d4b2c227ad7a9456f4ec2a9f09ab7f2e9e6cb56aeaa'
+  },
+  libgcrypt: {
+    version: '1.8.0-1',
+    checksum: '81c088e29a1c393b7f7ef654de263efa1906478a1452e9f45af5bbefd82b7f49'
+  },
+  'libgpg-error': {
+    version: '1.27-1',
+    checksum: '7ae57f06296bf6ef98fc450f7ef7d1a47753d429c1cdc440045a03ed108d58de'
+  }
 )
 
 configure_flags(
