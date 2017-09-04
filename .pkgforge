@@ -5,20 +5,20 @@ licenses 'COPYING'
 
 deps(
   lvm2: {
-    version: '2.02.172-2',
-    checksum: '87a5c02e3f48cffca51c58e79413f90067de9a67043671a5c731380faed207a4'
+    version: '2.02.172-4',
+    checksum: 'e65608197169dc6870d38e8f6e64e66f5ae83a57c9cc832836113adefa2177a2'
   },
   popt: {
     version: '1.16-2',
     checksum: '68f7560c7ddc160c4b9aa71e7261ba5b133d1864609a6980c3fee733f659fc97'
   },
   'util-linux': {
-    version: '2.30.1-4',
-    checksum: '317413b538c83bf9665795579e7ed37a8db63608b384f4cee370da1e8424f8c1'
+    version: '2.30.1-6',
+    checksum: '1c049888ee851fcb5dd7db8c1f40c4832ff575e4a70b0c84d0b0a22b18e3faba'
   },
   'linux-api-headers': {
-    version: '4.12-1',
-    checksum: '25d3672456a93cc7f6743d4b2c227ad7a9456f4ec2a9f09ab7f2e9e6cb56aeaa'
+    version: '4.13-1',
+    checksum: '50b2288419fe132c061bdf3d297293011929abc1092ffaa5e523ad6549b4f5fa'
   },
   libgcrypt: {
     version: '1.8.1-1',
