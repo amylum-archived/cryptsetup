@@ -5,8 +5,8 @@ licenses 'COPYING'
 
 deps(
   lvm2: {
-    version: '2.02.172-5',
-    checksum: '6ded668296d6ba59558a5c799d0bf274e7091567523740105ef73065ebe951f6'
+    version: '2.02.174-1',
+    checksum: 'bfda2efacf8bd8f7180bcd560210e7da96573d82e930f5d9fb357de057bc6e50'
   },
   popt: {
     version: '1.16-2',
