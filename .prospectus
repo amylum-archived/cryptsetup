@@ -8,6 +8,7 @@ item do
     gitlab_tag
     repo 'cryptsetup/cryptsetup'
     regex /^v(\d+)_(\d+)_(\d+)$/, '\1.\2.\3'
+    filter /^v(\d+)_(\d+)_(\d+)$/
   end
 
   actual do
