@@ -21,12 +21,12 @@ deps(
     checksum: 'dbfe68e7620b09fe2996d83fe4ae738dddb2486885b9d5ef3dc27ae77d7585ba'
   },
   libgcrypt: {
-    version: '1.8.2-1',
-    checksum: '8b17f57e74b1ab99b94c27f8cd44f02cb8d4a45b640d4c9d17e8a984924bac05'
+    version: '1.8.2-2',
+    checksum: 'bec2146f8bda8fd21588d0d19894a520fd3ded55d3c759893667469dd8b21444'
   },
   'libgpg-error': {
-    version: '1.27-1',
-    checksum: '7ae57f06296bf6ef98fc450f7ef7d1a47753d429c1cdc440045a03ed108d58de'
+    version: '1.28-1',
+    checksum: '55eec88e8ef7164bc4c2a851fb1f8128f3fe0b0a5e464db77725affb19191f6e'
   }
 )
 
