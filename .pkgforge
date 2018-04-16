@@ -5,28 +5,28 @@ licenses 'COPYING'
 
 deps(
   lvm2: {
-    version: '2.02.177-18',
-    checksum: '734795b34cc482b56f46db33df6b017a66759fa27a7392fdea39dfabf2c088e4'
+    version: '2.02.177-19',
+    checksum: '32994e0d70ffdd4d7ba231acf0f67f1a2ab570d369705c1084cb36f72056e0b4'
   },
   popt: {
     version: '1.16-2',
     checksum: '68f7560c7ddc160c4b9aa71e7261ba5b133d1864609a6980c3fee733f659fc97'
   },
   'util-linux': {
-    version: '2.32-10',
-    checksum: 'd1b2867ae87d87245f38234f7544dc155246b5510a94810873962083b0e859cd'
+    version: '2.32-11',
+    checksum: '887e0b179240b718255c0eb1c25c38fa5c5deff6105645e79053c8840cb31895'
   },
   'linux-api-headers': {
     version: '4.16-1',
     checksum: '55af258de8663de5ec97db875651eaeecc209b47454dbbf27757d4de595e618d'
   },
   libgcrypt: {
-    version: '1.8.2-2',
-    checksum: 'bec2146f8bda8fd21588d0d19894a520fd3ded55d3c759893667469dd8b21444'
+    version: '1.8.2-3',
+    checksum: '4dc9a09be78b8c6507f770b19cfc032eedeaedc2e29eef526cb583d9174f0cee'
   },
   'libgpg-error': {
-    version: '1.28-1',
-    checksum: '55eec88e8ef7164bc4c2a851fb1f8128f3fe0b0a5e464db77725affb19191f6e'
+    version: '1.29-1',
+    checksum: '34c4ab5446b371eaacb7dd57b24d823a42436c370ce5886db7a5c468892b0da0'
   }
 )
 
