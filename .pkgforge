@@ -5,16 +5,16 @@ licenses 'COPYING'
 
 deps(
   lvm2: {
-    version: '2.02.180-1',
-    checksum: 'a84edaa90ee63305f4820d6704af8573b985405af2e672248f3939e301906596'
+    version: '2.02.180-2',
+    checksum: 'e917a4edeaced5214d28b43705e4d67ce56ba19520c19b9506580c357bbf54ec'
   },
   popt: {
     version: '1.16-3',
     checksum: 'c3c0a942e55dfe85044f569ab3e1e25fb2cc461c7cbbbdd00d1f45052d07b68b'
   },
   'util-linux': {
-    version: '2.32.1-1',
-    checksum: 'bc04ec4a77882792bffcfaa55f9be97a6a2b2d4844b58085ae01771bf86567f7'
+    version: '2.32.1-2',
+    checksum: '0767cba9699c9fd4af5edb1aa313cf9f5317ec416ef19cb992976d9539384a3c'
   },
   'linux-api-headers': {
     version: '4.17-1',
