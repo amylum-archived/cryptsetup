@@ -1,7 +1,7 @@
 cryptsetup
 ==========
 
-[![Build Status](https://img.shields.io/circleci/project/amylum/cryptsetup/master.svg)](https://circleci.com/gh/amylum/cryptsetup)
+[![Build Status](https://img.shields.io/travis/com/amylum/cryptsetup.svg)](https://travis-ci.com/amylum/cryptsetup)
 [![GitHub release](https://img.shields.io/github/release/amylum/cryptsetup.svg)](https://github.com/amylum/cryptsetup/releases)
 [![GPL3 Licensed](http://img.shields.io/badge/license-GPL3-green.svg)](https://tldrlegal.com/license/gnu-general-public-license-v3-(gpl-3))
 
