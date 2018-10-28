@@ -13,8 +13,8 @@ deps(
     checksum: 'c3c0a942e55dfe85044f569ab3e1e25fb2cc461c7cbbbdd00d1f45052d07b68b'
   },
   'util-linux': {
-    version: '2.32.1-9',
-    checksum: '4ffd1cfeef719a7d32805a40c8fe147dcf3446dc42577e2206a4167de243fbb6'
+    version: '2.32.1-10',
+    checksum: '912b673cf53f5b7dc7d675a71eab9c9e20706a645c1ec847cc1aaa059ba224f9'
   },
   'linux-api-headers': {
     version: '4.18-1',
