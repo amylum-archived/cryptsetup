@@ -5,24 +5,24 @@ licenses 'COPYING'
 
 deps(
   lvm2: {
-    version: '2.02.183-1',
-    checksum: '323a0acdf8ccea86452745d1932d9d1f991a89e8e0adc757b1066e65a8c2ff92'
+    version: '2.02.183-2',
+    checksum: 'daab9a26e04827d1b3958994d72886ed078836ac820525e09df6e5554cfb7657'
   },
   popt: {
     version: '1.16-3',
     checksum: 'c3c0a942e55dfe85044f569ab3e1e25fb2cc461c7cbbbdd00d1f45052d07b68b'
   },
   'util-linux': {
-    version: '2.33-2',
-    checksum: 'bd7d71559df7d17682bab2af7ed5ec840597bdcb2e2bd1352e3dff6da7b9ff74'
+    version: '2.33-3',
+    checksum: '7dc7b66cfb5e49fa9477cca126585dd46c593e98934f427c49165e2a4d85d7fe'
   },
   'linux-api-headers': {
     version: '4.20-1',
     checksum: 'aed037b2b3fb2df77ca19359a20188d39c25d011febf4d3733d251fa87ca9636'
   },
   libgcrypt: {
-    version: '1.8.4-1',
-    checksum: '77d6c555e1b88e84ac57899257b91e658f06e06eee90d112964cd1eae797517a'
+    version: '1.8.4-2',
+    checksum: 'b39823c306f2fdacaaa4ce8700c41c6b534d3ace1dc5f3994ae908247d144900'
   },
   'libgpg-error': {
     version: '1.33-1',
